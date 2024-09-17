@@ -1,0 +1,201 @@
+header img {
+	width: auto;
+	margin-left: 200px;
+	margin-right: 200px;
+	
+
+}
+
+header {
+	background-image: url(../imagenes_video/fotoindex1.png);
+	background-repeat: no-repeat;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 187px;
+	text-align: center;
+	border: 0px solid black;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav {
+	text-align: center;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.centro {
+	background-color: DarkSeaGreen;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 300px;
+	text-align: center;
+}
+
+aside {
+	background-color: rgb(153, 204, 0);
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	float: right;
+	width: 18%;
+	margin-right: 200px;
+	
+}
+
+aside, h2 {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.derecha {
+	background-color: grey;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.derecha h2 {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+body {
+	background-image: url("../imagenes_video/fondo.png");
+	
+}
+
+footer {
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+hr {
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+.equipo {
+	background-color: DarkSeaGreen;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	width: 40%;
+	margin-top: 10px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.equipo table {
+	border: 10px solid grey;
+	margin-left: 30px; 
+	border-collapse: collapse;
+
+}
+
+.equipo td {
+	border: 3px solid grey;
+
+}
+
+.equipo caption {
+	font-size: 20px;
+}
+
+.form {
+	background-color: DarkSeaGreen;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	width: 35%;
+	margin-top: 10px;
+	margin-left: 450px;
+	margin-right: 300px;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+form {
+	margin-left: 20%;
+	margin-right: 20%; 
+	
+}
+
+.form h2 {
+	color: black;
+	font-size: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+legend {
+	text-align: center;
+}
+
+fieldset input[type=radio] {
+	margin-left: 20%;
+	width: auto;
+}
+
+fieldset input {
+	margin-left: 20%;
+	width: 50%;
+}
+
+#muj {
+	margin-left: 0;
+}
+
+input[type=submit] {
+	margin-left: 33%;
+}
+
+select {
+	margin-left: 20%;
+}
+
+fieldset label {
+	color: ForestGreen;
+}
+
+.sex {
+	color: black;
+}
+
+
+fieldset {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+input[type=checkbox] {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}

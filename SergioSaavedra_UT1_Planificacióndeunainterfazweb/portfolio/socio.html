@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="Ejemplo de HTML5" />
+<link rel="stylesheet" href="../css/indexcss.css">
+<title>Hazte socio</title>
+</head>
+<body>
+	<header><img src="../imagenes_video/ocio.png" alt="index">
+			<h1>Por ti</h1>
+	</header>
+	
+		<nav>
+			<ul>
+				<li><a href="../index.html">PRICIPAL</a></li>
+				<li><a href="conocenos.html">CONOCENOS</a></li>
+				<li><a href="socio.html">HAZTE SOCIO</a></li>
+			</ul>
+		</nav>
+		<section>
+		<article class="form">
+			<h2>Rellene estos datos para hacerse socio</h2>
+			
+			<form action="#">
+				<fieldset>
+					<legend>Datos personales</legend>
+			  <label for="nom">Nombre:</label><br>
+			  <input type="text" id="nom" name="nom" placeholder="Escriba aqui"><br>
+			  <label for="ape">Apellidos:</label><br>
+			  <input type="text" id="ape" name="ape" placeholder="Escriba aqui"><br>
+			  <label for="tel">Telefono:</label><br>
+			  <input type="tel" id="tel" name="tel" placeholder="Escriba aqui"><br>
+			  <label for="email">Email:</label><br>
+			  <input type="email" id="email" name="email" placeholder="Escriba aqui"><br>
+			  <label for="fch">Fecha de Nacimiento:</label><br>
+			  <input type="date" id="fch" name="fch"><br>
+			  <label for="sx">Sexo:</label><br>
+			  <input type="radio" id="sx" name="hombre" value="hombre">
+  				<label for="hombre" class="sex"> Hombre</label>
+  				<input type="radio" id="muj" name="mujer" value="mujer">
+  				<label for="mujer" class="sex"> Mujer</label><br>
+  			  
+  			</fieldset>
+  			<fieldset>
+  				<legend>Donación</legend>
+  				<label for="can">Cantidad:</label><br>
+  			  <input type="number" id="can" name="can" placeholder="€"><br>
+  			  <label for="fre">Frecuencia:</label><br>
+  			  <select id="fre" name="fre">
+    		  <option value="semanalmente">Semanalmente</option>
+    		  <option value="ensualmente">Mensualmente</option>
+    		  <option value="anualmente">Anualmente</option>
+  			  </select><br>
+  			</fieldset>
+
+  			  
+  			  <input type="checkbox" id="boletin" name="boletin" value="boletin">
+  			  <label for="boletin"> Deseo suscribirme al boletin de noticias</label><br>
+  			  <input type="submit">
+  			  <input type="reset" value="Borrar">
+
+			</form>
+			
+		</article>
+		
+		
+	</section>
+
+	<hr>
+	<footer>
+		<p>©2020 PorTi Todos los derechos reservados <br> porti@ong.org</p>
+	</footer>
+</body>
+</html>
