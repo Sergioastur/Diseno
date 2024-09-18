@@ -7,8 +7,7 @@ header img {
 }
 
 header {
-	background-image: url(../imagenes_video/fotoindex1.png);
-	background-repeat: no-repeat;
+	background-color: #988064;
 	margin-left: 200px;
 	margin-right: 200px;
 	height: 187px;
@@ -16,30 +15,62 @@ header {
 	border: 0px solid black;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px black;
+	
 }
 
 ul {
 	list-style: none;
+	
 }
 
 li {
 	display: inline-block;
 	margin: 10px;
+	background: #5e5237;
+  	color: #fff5dd;
+	border-radius: 20px;
+	padding: 2px;
+}
+
+li:hover {
+	color: #5e5237;
+  	background-color: #fff5dd;
+}
+
+li a{
+	color: #fff5dd !important;
+}
+
+li:hover a {
+	color: #5e5237 !important;
 }
 
 nav {
 	text-align: center;
 	font-size: 25px;
+	
+}
+
+h1, caption {
+	font-family: "Roboto Slab", serif !important;
+}
+
+caption {
+	font-weight: bold;
+}
+
+header h1, footer {
+	color: #171c34;
 }
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #171c34;
 }
 
 .centro {
-	background-color: DarkSeaGreen;
-	border: 1px solid lightgrey;
+	background-color: #466A58;
+	/*border: 1px solid lightgrey;*/
 	border-radius: 20px;
 	width: 50%;
 	margin-top: 10px;
@@ -49,8 +80,8 @@ a {
 }
 
 aside {
-	background-color: rgb(153, 204, 0);
-	border: 1px solid lightgrey;
+	background-color: #132730;
+	/*border: 1px solid lightgrey;*/
 	border-radius: 20px;
 	float: right;
 	width: 18%;
@@ -65,7 +96,7 @@ aside, h2 {
 }
 
 .derecha {
-	background-color: grey;
+	background-color: #94a2a9;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 20px;
@@ -81,8 +112,8 @@ aside, h2 {
 }
 
 body {
-	background-image: url("../imagenes_video/fondo.png");
-	
+	background-color: #c7af94;
+	font-family: "Roboto", sans-serif;
 }
 
 footer {
@@ -97,9 +128,14 @@ hr {
 
 }
 
+.centro, .equipo, .form {
+	color: #171c34;
+	background-color: #a0a4b5 !important;
+}
+
 .equipo {
-	background-color: DarkSeaGreen;
-	border: 1px solid lightgrey;
+	background-color: #466A58;
+	/*border: 1px solid lightgrey;*/
 	border-radius: 20px;
 	width: 40%;
 	margin-top: 10px;
@@ -111,14 +147,16 @@ hr {
 }
 
 .equipo table {
-	border: 10px solid grey;
+	border: 10px solid #494e68;
 	margin-left: 30px; 
 	border-collapse: collapse;
+	color: #171c34;
 
 }
 
 .equipo td {
-	border: 3px solid grey;
+	border: 3px solid #494e68;
+	color: #171c34;
 
 }
 
@@ -128,7 +166,7 @@ hr {
 
 .form {
 	background-color: DarkSeaGreen;
-	border: 1px solid lightgrey;
+	/*border: 1px solid lightgrey;*/
 	border-radius: 20px;
 	width: 35%;
 	margin-top: 10px;
@@ -137,6 +175,7 @@ hr {
 	text-align: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	color: #171c34;
 }
 
 form {
@@ -179,10 +218,13 @@ input[type=submit] {
 
 select {
 	margin-left: 20%;
+	background-color: #132730;
+	color: #94a2a9;
+	border-color: #24343b;
 }
 
 fieldset label {
-	color: ForestGreen;
+	color: #132730;
 }
 
 .sex {
@@ -193,9 +235,16 @@ fieldset label {
 fieldset {
 	margin-left: 0;
 	padding-left: 0;
+	border: 2px solid #171c34;
 }
 
 input[type=checkbox] {
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+input {
+	background-color: #132730;
+	color: #94a2a9;
+	border-color: #24343b;
 }
