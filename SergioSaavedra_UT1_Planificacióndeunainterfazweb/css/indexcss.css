@@ -18,6 +18,16 @@ header {
 	
 }
 
+.equipo {
+	margin-left: 30% !important;
+  	margin-right: 10% !important;
+}
+
+.form {
+	margin-left: 33% !important;
+  	margin-right: 10% !important;
+}
+
 ul {
 	list-style: none;
 	
@@ -39,6 +49,7 @@ li:hover {
 
 li a{
 	color: #fff5dd !important;
+	padding: 15px;
 }
 
 li:hover a {
@@ -52,7 +63,9 @@ nav {
 }
 
 h1, caption {
-	font-family: "Roboto Slab", serif !important;
+	font-family: "Merriweather" !important;
+  	font-weight: 700;
+  	font-style: normal;
 }
 
 caption {
@@ -148,7 +161,7 @@ hr {
 
 .equipo table {
 	border: 10px solid #494e68;
-	margin-left: 30px; 
+	margin-left: 15%; 
 	border-collapse: collapse;
 	color: #171c34;
 
