@@ -1,0 +1,19 @@
+.container {
+    background-color: aqua;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 60%;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    display: flex;
+}
+
+.container div {
+    background-color: red;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+
+}
