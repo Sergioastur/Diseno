@@ -82,3 +82,20 @@ aside div {
     background-color: blue;
     margin-bottom: 5%;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+footer img {
+    width: 5%;
+}
+
+.redes {
+    display: flex;
+    justify-content: end;
+}
