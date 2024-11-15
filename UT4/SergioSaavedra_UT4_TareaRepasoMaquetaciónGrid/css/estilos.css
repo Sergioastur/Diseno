@@ -1,0 +1,105 @@
+header, footer {
+    background-color: lightslategrey;
+    color: whitesmoke;
+}
+
+header img {
+    width: 100%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 15%;
+    display: grid;
+}
+
+h1 {
+    display: grid;
+    align-self: center;
+    justify-self: start;
+    margin-left: 15px;
+    grid-column: 2 / 2;
+}
+
+header {
+    display: grid;
+    padding: 1%;
+    column-gap: 0;
+    align-content: center;
+    
+    
+}
+
+nav {
+     display: grid;
+     grid-column: 2 / 2;
+     align-content: center;
+     column-gap: 0px;
+     row-gap: 0px;
+     
+}
+
+nav div {
+    height: 50px;
+    
+    background-color: brown;
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    grid-row: 1 / 2;
+    row-gap: 0px;
+    column-gap: 0px;
+
+}
+
+.logo {
+    display: grid;
+    align-content: center;
+    column-gap: 0px;
+    grid-template-columns: 100px auto;
+}
+
+
+
+aside {
+    background-color: orange;
+    display: grid;
+    grid-column: 2 / 2;
+    grid-template-rows: 230px 230px;
+}
+
+
+
+.contenido {
+    display: grid; 
+    grid-template-columns: 70% auto;
+    column-gap: 30px;
+}
+
+aside div {
+    margin: 5%;
+    width: 90%;
+    
+    position: relative;
+    background-color: blue;
+    margin-bottom: 5%;
+}
+
+footer {
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+footer img {
+    grid-row: 1 / 2;
+    width: 80%;
+    justify-self: center;
+}
+
+.redes {
+    display: grid;
+    grid-column: 2 / 2;
+    align-content: center;
+    grid-template-columns: 36px 36px;
+}
