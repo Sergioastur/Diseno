@@ -35,7 +35,8 @@ nav,.container,footer {
 
 
 /* Estilos para el menú principal */
-header {
+nav {
+  display: flex;
   background-color: #121867;
   color: rgb(243, 55, 132);
   font-size: 1.4;
@@ -44,11 +45,10 @@ header {
   position: sticky;
   overflow-y: auto;
   top: 0px;
-  
+  z-index: 999999;
 }
 
 nav div {
-  float: left;
   margin-left: 20px;
   padding: 5px;
 }
@@ -87,6 +87,7 @@ header aside {
   left: 5%;
   width: 7%;
   height: 40%;
+  text-align: left;
 }
 
 .lateral img {
@@ -116,10 +117,12 @@ main h1 {
 }
 
 /* Línea separados de elementos */
+
+
 main h1::after,
 main:after {
   background-color: rgb(243, 55, 132);
-  display: block;
+  display: flex;
   content: " ";
   height: 2px;
   width: 100%;
@@ -130,9 +133,12 @@ main:after {
 /* Estilos para la zona de las cards */
 .cards {
   overflow-y: auto;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
 }
 .cards .card {
-  float: left;
+  
   padding: 20px;
   text-align: center;
   width: 33%;
@@ -144,9 +150,7 @@ main:after {
   
 }
 
-.derecha {
-  margin-left: 30%;
-}
+
 
 
 /* Sección con la botella y los tres párrafos descriptivos */
@@ -154,26 +158,26 @@ main:after {
   margin: 30px auto;
   overflow-y: auto;
   width: 95%;
+  display: grid;
+  grid-template-columns: 150px auto 150px;
 }
 
 .bottle img {
-  float: left;
-  margin-left: 5%;
-  width: 13%;
+  
+  
+  width: 100%;
   margin-top: 10%;
 }
 
-.bottle .bottleDrh {
-  float: right;
-}
+
 
 .bottle div {
-  float: left;
+  
   margin-top: 15%;
   text-align: justify;
-  width: 50%;
-  padding-left: 12%;
-  padding-right: 1%;
+  width: 100%;
+   padding-left: 20%;
+  padding-right: 30%; 
   
 }
 
@@ -191,37 +195,40 @@ main:after {
 
 /* Estilos para la galería de imágenes */
 .gallery {
-  clear: both;
+  display: flex;
+  
   margin: 25px auto;
   overflow-y: auto;
   width: 70%;
   margin-left: 15%;
 }
 .gallery img {
-  float: left;
+  
   width: 25%;
 }
 
 
 /* Estilos para el pie de página */
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: #121867;
-  clear: both;
   color: rgb(243, 55, 132);
   font-weight: bolder;
   font-size: 0.8;
   margin-top: 20px;
   overflow-y: auto;
   padding: 20px;
+
 }
 
 footer address {
-  float: left;
+  
   width: 20%;
 }
 
 footer div {
-  float: left;
+  
   text-align: center;
   width: 60%;
   color: transparent;
