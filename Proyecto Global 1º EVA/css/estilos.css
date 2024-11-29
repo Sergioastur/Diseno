@@ -1,17 +1,24 @@
 .container {
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+  margin: 20px auto; 
+    background-color: #005f9c;
+}
+
+body {
+    background-color: #005f9c;
 }
 
 
 header {
     display: flex;
     justify-content: space-between;
+    background-color: #21A6FC;
 }
 
 header h1 {
     display: flex;
     align-items: center;
+    
 }
 
 header img {
@@ -23,6 +30,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav div {
@@ -31,6 +39,19 @@ nav div {
     display: flex;
     height: 50px;
     width: 200px;
+    margin: 1%;
+    background-color: #010785;
+    color: #343efc;
+}
+
+nav div:hover {
+    background-color: #343efc;
+    color: #010785;
+}
+
+section {
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 #presentacion {
@@ -52,4 +73,67 @@ nav div {
 
 #galeria-presentacion img {
     display: inline-grid;
+    
+}
+
+#accesos {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    
+}
+
+#accesos img {
+    width: 100%;
+    max-height: 723px;
+}
+
+#parrafos article:nth-child(odd) {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+#parrafos article:nth-child(even) {
+    display: grid;
+    grid-template-columns: auto 30%;
+}
+
+#parrafos img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    width: 30%;
+}
+
+#rss {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#rss a{
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    overflow: hidden;
+    height: 58px;
+
+}
+
+#rss img {
+    
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
 }
