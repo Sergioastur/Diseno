@@ -1,5 +1,5 @@
 .container {
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
     background-color: #005f9c;
 }
@@ -65,6 +65,7 @@ h2 {
 
 #presentacion aside {
     width: 208%;
+    margin-right: 1%;
 }
 
 #presentacion img {
@@ -96,6 +97,7 @@ h2 {
 #accesos article {
     background: #13fc8c;
     color: #008645;
+    
 }
 
 #accesos div {
@@ -156,13 +158,15 @@ h2 {
 }
 
 #parrafos article {
-    width: 90%;
-    margin: 5% auto;
+    
+    margin: 1% auto;
 }
 
 #parrafos aside {
     background: #21a6fc;
     color: #005f9c;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 #parrafos img {
@@ -173,10 +177,22 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #13fc8c;
+    background: #008645;
+    border-color: #00ff84;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding: 1%;
 }
 
 footer div {
     width: 30%;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 #rss {
@@ -204,4 +220,48 @@ footer div {
 #copyright {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 576px) {
+    nav {
+        display: none;
+    }
+
+    #presentacion {
+        display: block;
+    }
+
+    #accesos {
+        display: block;
+    }
+
+    #parrafos article {
+        display: block !important;
+        
+    }
+
+    #parrafos article:nth-child(even) aside {
+        background-color: rgba(33, 166, 252, 0.5);
+        color: #13fc8c;
+        position: relative;
+        bottom: 1vh;
+
+    }
+
+    #parrafos article:nth-child(odd) aside {
+        position: relative;
+        background-color: rgba(33, 166, 252, 0.5);
+        top: 32vh;
+        color: #13fc8c;
+    }
+
+    #parrafos article:nth-child(odd) img {
+        max-height: 284px;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 992px) {
+    
 }
