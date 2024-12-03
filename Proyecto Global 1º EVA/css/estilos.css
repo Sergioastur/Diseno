@@ -1,11 +1,12 @@
 .container {
     width: 100%;
-  margin: 20px auto; 
+    margin: 20px auto;
     background-color: #005f9c;
 }
 
 body {
     background-color: #005f9c;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -18,7 +19,7 @@ header {
 header h1 {
     display: flex;
     align-items: center;
-    
+    color: black;
 }
 
 header img {
@@ -54,6 +55,10 @@ section {
     padding-top: 2%;
 }
 
+h2 {
+    color: #13fc8c;
+}
+
 #presentacion {
     display: flex;
 }
@@ -73,18 +78,71 @@ section {
 
 #galeria-presentacion img {
     display: inline-grid;
-    
+
 }
 
 #accesos {
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+
+
+#accesos h2 {
+    color: #008645;
+    text-align: center;
+}
+
+#accesos article {
+    background: #13fc8c;
+    color: #008645;
+}
+
+#accesos div {
+    margin-left: 2%;
+    margin-right: 2%;
     
+}
+
+#accesos ul {
+    margin: 1%;
+    padding: 1%;
 }
 
 #accesos img {
     width: 100%;
     max-height: 723px;
+}
+
+#L1,
+#L4,
+#L10,
+#L20 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#L1 {
+    background-color: #00a6d6;
+}
+
+#L4 {
+    background-color: #144d29;
+}
+
+#L10 {
+    background-color: #2905a1;
+}
+
+#L20 {
+    background-color: #910045;
 }
 
 #parrafos article:nth-child(odd) {
@@ -95,6 +153,16 @@ section {
 #parrafos article:nth-child(even) {
     display: grid;
     grid-template-columns: auto 30%;
+}
+
+#parrafos article {
+    width: 90%;
+    margin: 5% auto;
+}
+
+#parrafos aside {
+    background: #21a6fc;
+    color: #005f9c;
 }
 
 #parrafos img {
@@ -117,7 +185,7 @@ footer div {
     justify-content: end;
 }
 
-#rss a{
+#rss a {
     align-items: center;
     justify-content: end;
     display: flex;
@@ -127,8 +195,8 @@ footer div {
 }
 
 #rss img {
-    
-    max-width: 100%; 
+
+    max-width: 100%;
     max-height: 100%;
     object-fit: contain;
 }
