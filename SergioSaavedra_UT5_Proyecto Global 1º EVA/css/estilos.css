@@ -301,6 +301,10 @@ footer ul {
         max-height: 284px;
         overflow: hidden;
     }
+
+    #rss {
+        display: block;
+    }
 }
 
 
