@@ -1,14 +1,16 @@
-.container-md {
-    background-color: red;
-    color:white;
-    height:600px;
-    text-align: center;
-}
-h1 {
-    color:blueviolet;
-}
-.text-orange {
-    color: orange;
-    /* color: var(--bs-orange); */
-    /*usando variable predefinidas en bs*/
-}
+/* Define tamaños personalizados de fuente */
+.fs-sm {
+    font-size: 1rem; /* Tamaño para pantallas pequeñas */
+  }
+  
+  @media (min-width: 768px) {
+    .fs-md {
+      font-size: 1.5rem; /* Tamaño para pantallas medianas */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .fs-lg {
+      font-size: 2rem; /* Tamaño para pantallas grandes */
+    }
+  }

@@ -1,7 +1,4 @@
    
-
-
-
 <!doctype html>
 <html lang="es">
   <head>
@@ -13,31 +10,46 @@
 </head>
 <body>
   <div class="container mt-5">
-    <!-- Encabezado -->
+    <!-- Encabezados -->
     <h1 class="display-1 text-center text-primary">
-      Bienvenido
+      Display 1 
     </h1>
 
+    <h6 class="display-6 text-center text-primary">
+      Display 6
+    </h6>
+
     <!-- Párrafo descriptivo -->
-    <p class="fs-5 fs-md-4 fs-lg-3 text-muted text-center">
-      Este es un ejemplo de cómo el texto puede cambiar de tamaño según el dispositivo. 
-      El encabezado y el párrafo se adaptan para garantizar la legibilidad y una presentación atractiva.
+
+    <p class="fs-1">
+      Con fs-1: Este es un ejemplo del mayor tamaño de texto con fs.
     </p>
 
-    <!-- Segunda sección columnas -->
+    <p class="fs-6">
+      Con fs 6: Este es un ejemplo del menor tamaño de texto con fs.
+    </p>
+
+    <!-- Parrafo que utiliza clases personalizadas para cambiar el tamaño de letra -->
+    <!-- Clases creadas en CSS utilizando media queries -->
+    <p class="fs-sm fs-md fs-lg text-danger">
+      Este texto cambia su tamaño en diferentes pantallas.
+    </p>
+   
+
+    <!-- Sección columnas -->
+    <!-- Utilización de las clases personalizadas -->
     <div class="row mt-4">
       <div class="col-12 col-md-6">
-        <h2 class="fs-4 fs-md-3 fs-lg-2">Encabezado Secundario</h2>
-        <p class="fs-6 fs-md-5 fs-lg-4">
+        <h2 class="display-4">Encabezado 1</h2>
+        <p class="fs-sm fs-md fs-lg">
           Este texto también se adapta al tamaño del dispositivo. 
-          Es perfecto para subtítulos o descripciones en páginas modernas.
+          
         </p>
       </div>
       <div class="col-12 col-md-6">
-        <h2 class="fs-4 fs-md-3 fs-lg-2">Otro Encabezado Secundario</h2>
-        <p class="fs-6 fs-md-5 fs-lg-4">
-          Usar clases responsivas ayuda a crear contenido adaptable 
-          para todo tipo de pantallas, desde móviles hasta escritorios.
+        <h2 class="display-4">Encabezado 2</h2>
+        <p class="fs-sm fs-md fs-lg">
+          Este texto también se adapta al tamaño del dispositivo. 
         </p>
       </div>
     </div>
