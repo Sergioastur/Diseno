@@ -11,9 +11,9 @@
 <body>
     <div class="container">
         <div class="row text-center bg-secondary-subtle mt-3 rounded ms-0 me-0">
-            <div class="col-12">
+            <div class="col-12 text-secondary">
                 <h1>Carousel</h1>
-                <h2>Vivamus ultrices solicitudin</h2>
+                <h2 class="d-none d-md-block">Vivamus ultrices solicitudin</h2>
             </div>
         </div>
         <div class="row">
@@ -63,41 +63,83 @@
             </div>
         </div>
         <div class="row">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4 pe-0 ps-4">
                 <div class="col">
                   <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/ny.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">New York</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Open modal</a>
+                    <div class="card-footer text-center ">
+                        <a href="#" class="btn btn-primary bg-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Open modal</a>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/chicago.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a short card.</p>
+                      <h5 class="card-title">Chicago</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
+                    <div class="card-footer text-center">
+                      <a href="#" class="btn btn-primary bg-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Open modal</a>
+                  </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/la.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Los Angeles</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                     </div>
+                    <div class="card-footer text-center">
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Open modal</a>
+                  </div>
                   </div>
                 </div>
                 
               </div>
         </div>
+        <div class="row">
+          <footer class="d-flex flex-wrap justify-content-center justify-content-md-around align-items-center py-3 my-4 bg-secondary-subtle pe-0 text-center text-md-start">
+            <p class="col-12 col-md-4 mb-0 text-black">Lorem ipsum dolor</p>
+          
+            <!-- Descomentar si deseas incluir el logo en tamaños más grandes -->
+            <!-- <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none d-none d-md-flex">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a> -->
+          
+            <ul class="nav col-12 col-md-4 justify-content-center justify-content-md-end">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-primary">Los Angeles</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-primary">Chicago</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-primary">New York</a></li>
+            </ul>
+          </footer>
+          
+        </div>
     </div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
