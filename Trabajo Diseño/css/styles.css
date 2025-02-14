@@ -1,0 +1,39 @@
+.bg-header {
+    background-color: #c17b51;
+    
+}
+
+.h1-header {
+    color: #e0bda8;
+    font-weight: bold;
+}
+
+.nav-text {
+    color: #815236 !important;
+    font-weight: bold;
+}
+
+.bg-principal {
+    background-color: #aa6339;
+}
+
+.card {
+    background-color: #748BA7;
+    color: #1a3e6c;
+}
+
+.btn-pal {
+    background-color: #6fa698;
+    color: #256f5c;
+}
+
+.btn-pal:hover {
+    background-color: #256f5c;
+    color: #6fa698;
+}
+
+footer {
+    background-color: #1a3e6c;
+
+}
+
