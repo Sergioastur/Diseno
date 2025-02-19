@@ -65,3 +65,41 @@ h1 {
     height: 100%;
     border: 0; 
 }
+
+.text-verde-oscuro {
+    color: #256f5c;
+}
+
+.bg-verde-claro {
+    background: #6fa698;
+}
+
+.text-marron-oscuro {
+    color: #a4701c;
+}
+
+.bg-marron {
+    background: #d4ac6a;
+}
+
+.btn-marron {
+    color: #d4ac6a;
+    background: #a4701c;
+}
+
+.btn-outline-marron {
+    color: #a4701c; 
+    background: transparent; 
+    border: 1px solid #a4701c; 
+}
+
+.btn-outline-marron:hover {
+    color: #a4701c; 
+    background: transparent; 
+    border: 1px solid #a4701c;
+}
+
+.card-img-top {
+    height: 900px; 
+    object-fit: cover; 
+}
