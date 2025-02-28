@@ -109,6 +109,21 @@ h1 {
     color: #1a3e6c;
 }
 
+/* Fuentes */
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Fin fuentes */
+
 
 
 
