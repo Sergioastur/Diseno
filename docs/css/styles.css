@@ -1,0 +1,129 @@
+.bg-header {
+    background-color: #c17b51;
+    
+}
+
+.h1-header {
+    color: #e0bda8;
+    font-weight: bold;
+}
+
+.nav-text {
+    color: #815236 !important;
+    font-weight: bold;
+}
+
+.bg-principal {
+    background-color: #aa6339;
+}
+
+.card {
+    background-color: #748BA7;
+    color: #1a3e6c;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.btn-pal {
+    background-color: #6fa698;
+    color: #256f5c;
+}
+
+.btn-pal:hover {
+    background-color: #256f5c;
+    color: #6fa698;
+}
+
+footer {
+    background-color: #1a3e6c;
+}
+
+.text-footer {
+    color: #748ba7;
+}
+
+h1 {
+    background: #748ba7;
+    color: #1a3e6c;
+}
+
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; 
+}
+
+.text-verde-oscuro {
+    color: #256f5c;
+}
+
+.bg-verde-claro {
+    background: #6fa698;
+}
+
+.text-marron-oscuro {
+    color: #a4701c;
+}
+
+.bg-marron {
+    background: #d4ac6a;
+}
+
+.btn-marron {
+    color: #d4ac6a;
+    background: #a4701c;
+}
+
+.btn-outline-marron {
+    color: #a4701c; 
+    background: transparent; 
+    border: 1px solid #a4701c; 
+}
+
+.btn-outline-marron:hover {
+    color: #a4701c; 
+    background: transparent; 
+    border: 1px solid #a4701c;
+}
+
+.card-img-top {
+    height: 900px; 
+    object-fit: cover; 
+}
+
+.registro {
+    background: #748ba7;
+    color: #1a3e6c;
+}
+
+/* Fuentes */
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Fin fuentes */
+
+
+
+
